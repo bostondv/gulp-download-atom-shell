@@ -162,7 +162,7 @@ module.exports = (options, cb) ->
 
       (callback) ->
         if rebuild and currentAtomShellVersion isnt version
-          gutil.log PLUGIN_NAME, "Rebuilding native modules for new atom-shell version #{currentVersion}."
+          gutil.log PLUGIN_NAME, "Rebuilding native modules for new atom-shell version #{version}."
           apm ?= getApmPath()
           spawn {cmd: apm, args: ['rebuild']}, callback
         else
