@@ -1,15 +1,11 @@
 {
   "name": "gulp-download-atom-shell",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "gulp plugin to download atom-shell",
   "main": "index.js",
-  "scripts": {
-    "build": "coffee --bare --compile index.coffee",
-    "prepublish": "coffee --bare --compile index.coffee"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/r0nn/gulp-download-atom-shell"
+    "url": "git://github.com/bostondv/gulp-download-atom-shell"
   },
   "keywords": [
     "gulpfriendly",
@@ -17,9 +13,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/r0nn/gulp-download-atom-shell/issues"
+    "url": "https://github.com/bostondv/gulp-download-atom-shell/issues"
   },
-  "homepage": "https://github.com/r0nn/gulp-download-atom-shell",
+  "homepage": "https://github.com/bostondv/gulp-download-atom-shell",
   "dependencies": {
     "async": "^0.9.0",
     "decompress-zip": "0.0.4",
